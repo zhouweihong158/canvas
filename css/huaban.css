@@ -1,0 +1,177 @@
+/* 
+* @Author: 20911
+* @Date:   2017-08-28 18:20:43
+* @Last Modified by:   20911
+* @Last Modified time: 2017-08-30 16:20:46
+ */
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+main{
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+.left{
+	width: 130px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#d0d2e8;
+	border-right: 2px solid #bbb3b4;
+}
+.right{
+	height: 100%;
+	position: absolute;
+	left: 132px;
+	right: 0;
+}
+.top{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#d0d2e8;
+}
+.top>ul{
+	width:auto;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: pink; */
+}
+.top ul li{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 30px 10px;
+	background: #b3bdc7;
+	border-radius:10%;
+	box-sizing: border-box;
+}
+button{
+	width: auto;
+	height: auto;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	padding:5px 20px;
+	box-sizing: border-box;
+	background: #8e8e8c;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 10%;
+
+}
+button:first-child{
+	margin-left: 100px;
+}
+.bottom{
+	width: 100%;
+	top:100px;
+	position: absolute;
+	/* background:#abafd4; */
+	bottom:0;
+	left: 0;
+	overflow: hidden;
+
+}
+.eraser{
+	width: 20px;
+	height: 30px;
+	/* box-sizing: border-box; */
+	border: 1px solid green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	cursor: pointer;
+}
+.clip{
+	width: 200px;
+	height: 100px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	border: 1px dotted #666;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.left ul{
+	width: 100%;
+	height: auto;
+	top: 70px;
+	left: 0;
+	/* border-bottom: 1px solid #ff6700; */
+	/* background:#d0d2e8; */
+	position: absolute;
+}
+.left ul li{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 5px 10px;
+	background: #b3bdc7;
+	border-radius:10%;
+	box-sizing: border-box;
+}
+.left ul li[active=true]{
+	border:1px solid #ff6700 ;
+
+}
+.left ul li[active1=true]{
+	border:1px solid #ff6700 ;
+
+}
+.left ul li>input{
+	width: 100%;
+	height: 100%;
+}
+.yilei{
+
+}
+.tubiao{
+	font-family: "iconfont";
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;
+}
+.fuzhu{
+	font-family: "iconfont";
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;	
+}
+.tools{
+	font-family: "iconfont";
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;	
+}
+canvas{
+	border: 1px solid #000;
+}

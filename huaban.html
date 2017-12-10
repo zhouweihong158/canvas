@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画板</title>
+	<link rel="stylesheet" href="css/huaban.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+
+</head>
+<body>
+<main>
+	<div class="left">
+	   <ul>
+	   	<li class="tubiao icon-line" active="true" id="line"></li>
+        <li class="tubiao icon-xuxian" id="dash"></li>
+        <li class="tubiao icon-duobianxingceliang" id="duobianxing"></li>
+        <li class="tubiao icon-juxing tools" id="juxing"></li>
+        <li class="tubiao icon-yuan tools" id="yuan"></li>
+        <li class="tubiao icon-pan_icon tools" id="qianbi"></li>
+        <li class="tubiao icon-wujiaoxing" id="duojiaoxiing"></li>
+        <li class="fuzhu icon-xiangpica" active="false"></li>
+        <li class="fuzhu icon-vmiaobian tiaose" active1="true" id="stroke"></li>
+        <li><input type="color"></li>
+        <li class="fuzhu icon-kecheng-chunse tiaose" id="fill"></li>
+        <li><input type="color"></li>
+        <li class="fuzhu icon-wenzi" active1="false"></li>
+        <li class="fuzhu icon-x_jiequ"></li>
+	   </ul>
+	</div>
+	<div class="right">
+		<div class="top">
+			<ul>
+				<li class="tools icon-msnui-new"></li>
+				<li class="tools icon-chehui"></li>
+				<li>
+				    <a href=""  class="tools icon-baocun"></a>
+				 </li>
+				<li class="tools icon-zhuanhuan"></li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<canvas width="1100px" height="500px"></canvas>
+			<div class="eraser"></div>
+			<div class="clip"></div>
+			<div class="zhezhao"></div>
+		</div>
+	</div>
+</main>
+
+
+
+</body>
+</html>
+<script src="js/huaban.js"></script>
+<script src="js/gongneng.js"></script>
